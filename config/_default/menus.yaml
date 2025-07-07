@@ -4,14 +4,15 @@
 
 main:
   - name: Home
-    url: /#top
+    url: /
     weight: 10
-  - name: Features
-    url: /#features
+  - name: Services
+    hasChildren: true
     weight: 20
-  - name: Solutions
-    url: /#solutions
-    weight: 30
+  - name: Zero Point Myofascial Release
+    parent: Services
+    url: zero-point-myofascial-release/
+    weight: 10
   - name: Resources
     weight: 40
     hasChildren: true
